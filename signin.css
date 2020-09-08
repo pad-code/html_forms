@@ -1,0 +1,70 @@
+ body{
+     margin: 0;
+     padding: 0;
+     background-image: url(imagery/slash.jpeg);
+     background-size: cover;
+     background-position: left;
+ }
+ .container{
+     width: 50%;
+     height: 500px;
+     margin: 0 auto;
+     margin-top: 80px;
+     border: 1px solid black;
+     background-color: rgb(196, 231, 225);
+ }
+ .container .left{
+     float: left;
+     width: 50%;
+     height: 500px;
+     background-image: url(imagery/bulb.jpeg);
+     background-position: center;
+     box-sizing: border-box;
+     border:50px;
+ }
+ .container .right{
+     float: right;
+     width: 50%;
+     height: 500px;
+     box-sizing: border-box;
+ }
+ .formbox{
+     margin-top: 50px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-size: 16px;
+     margin-left: 20%;
+ }
+ .formbox header{
+     font-size: 18px;
+     font-weight: bold;
+ }
+ .formbox p{
+     font-size: 14px;
+ }
+ .formbox input{
+     margin-top: 10px;
+     width: 90%;
+     border: none;
+     outline: none;
+     border-bottom: 4px solid pink;
+ }
+ .formbox h6{
+     margin-top: 10px;
+ }
+ .formbox button{
+     width: 90%;
+     padding-top: 5px;
+     margin-top: 5px;
+     border: pink;
+     text-align: center;
+     font-size: 16px;
+     font-weight: bold;
+     background: pink;
+     color: black;
+     transition-duration: 0.4s;
+     cursor: pointer;
+ }
+ .formbox button :hover{
+     background-color: coral;
+     color: cyan;
+ }
